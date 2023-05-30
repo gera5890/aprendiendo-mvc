@@ -10,6 +10,9 @@
         }
 
         public function crearUsuario(){
+            require_once "./models/Usuario.model.php";
+            $usuario = new UsuarioModel;
+            
             require_once "./views/crearUsuario.php";
         }
 

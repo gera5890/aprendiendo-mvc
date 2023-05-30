@@ -1,7 +1,6 @@
 <?php
 
-require_once "./controllers/Usuario.Controller.php";
-require_once "./controllers/Nota.Controller.php";
+require_once "autoload.php";
 
 if(isset($_GET['controller'])){
     $nombreControlador = $_GET['controller'].'Controller';
